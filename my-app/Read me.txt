@@ -1,0 +1,26 @@
+HOW TO RUN PROJECT:
+1.Start Db MySql;
+2.Run backend folder by nodemon index.js
+3.Run frontend npm start
+
+ReactJS Frontend:
+•	Material UI
+•	Form Validation (Parent:Name,Occupation—Student:Name,Grade)
+•	Add,Edit,Delete,Get Data from Db
+•	Axios for api call (Seprate for Students & Parents)
+•	Separate components files
+•	Student Table (Functional Component)
+•	Parent  Table (Class Component)
+•	Notifications (Submission & errors)
+•	Parent (Childs Table)
+•	Student (Sibling Table)
+•	Search Bar
+•	Delete Parent row will delete child also
+
+NodeJS  Backend :
+•	Express Server
+•	Routes (Parents & student)
+
+DB Table:
+•	Parent Table(ID primary key,Name,Occupation)
+•	Student Table(ID Primary Key ,Name,Grade,ParentID Foriegn Key)
